@@ -1,0 +1,36 @@
+/* PHASE 9: Forms */
+.main-form {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+  background: #eee;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  align-content: left;
+}
+
+.main-form textarea {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 4px;
+  width: 95%;
+  background: white;
+}
+
+.main-form input {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 4px;
+  width: 95%;
+  background: white;
+}
+
+.submit {
+  width: 20%;
+}
+
+.content-main {
+  display: flex; 
+}
+
