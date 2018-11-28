@@ -1,0 +1,44 @@
+.ttt {
+    margin: auto;
+}
+
+.ttt > ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    /* justify-content: space-around; */
+    list-style: none;
+    border-bottom: 10px solid black;
+    margin: 0;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    padding: 0;
+}
+
+.ttt > ul:last-child {
+    border: none;
+}
+
+.ttt > ul > li {
+    font-size: 120px;
+    border-right: 10px solid black;
+    /* padding-right: 10px; */
+    width: 100px;
+    padding: 30px;
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+}
+
+.ttt > ul > li:last-child {
+    border: none;
+}
+
+.ttt > ul > li:hover {
+    background: yellow;
+}
+
+.clicked {
+    background: white;
+}
