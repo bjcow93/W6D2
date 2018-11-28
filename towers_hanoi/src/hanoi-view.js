@@ -11,8 +11,8 @@ class View {
             $ul.data("ulIdx", `${i}`);
 
             for (let j = 1; j < 4; j++) {
-                let $li = $("<li>0</li>");
-                $li.data("liIdx");
+                let $li = $("<li></li>");
+                $li.data("liIdx", `${i}${j}`);
 
                 if (i === 1) {
                     $li.addClass(`disk-${j}`);
